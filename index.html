@@ -1,0 +1,147 @@
+<!doctype html>
+    <head>
+    
+  
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+    
+    
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+ul{
+	position:absolute;
+	top: 8%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 20px 0;
+	background: #fff;
+	display: flex;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.3)
+}
+ul li{
+	list-style: none;
+	text-align: center;
+	display: block;
+	border-right: 1px solid rgba(0,0,0,0.2);
+}
+ul li:last-child{
+	border-right: none;
+}
+ul li a{
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+ul li a .icon{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	overflow: hidden;
+	margin: 0 auto 10px;
+	
+}
+ul li a .icon .fa{
+	width: 100%;
+	height: 100%;
+	line-height: 40px;
+	font-size: 34px;
+	transition: 0.5s;
+	color: #000;
+}
+ul li a .icon .fa:last-child{
+	color: gray;
+}
+ul li a:hover .icon .fa{
+	transform: translateY(-100%);
+}
+ul li a .name{
+	position: relative;
+	height: 20px; 
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+ul li a .name span{
+	display: block;
+	position: relative;
+	color: #000;
+	font-size: 18px;
+	line-height: 20px;
+	transition: 0.5s;
+}
+ul li a .name span:before{
+	content: attr(data-text);
+	position: absolute;
+	top: -100%;
+	width: 100%;
+	left: 0;
+	height: 1005;
+	color: gray;
+}
+ul li a:hover .name span{
+	transform: translateY(30px);
+}
+
+    </style>
+    </head>
+    <body bgcolor="black";>
+
+        <ul>
+       </li>
+        	<li>
+           	    <a href="intro.html">
+                	<div class="icon">
+          	             <i class="fa fa-file-text-o" aria-hidden="true"></i>"></i><!-- this is home icon link get form fornt-awesome icon for home button -->	
+        	             <i class="fa fa-file-text-o" aria-hidden="true"></i><!-- copy and paste the home icon link here for hover effect -->	
+        	         </div>
+        	         <div class="name"><span data-text="Webpage">Webpage</span></div>
+        	<!-- we are create first menu item name home -->
+        	</a>
+        	</li>
+            <li>
+                <a href="table.html">
+                    <!-- this anchor text for link your About page to another page -->
+                    <div class="icon">
+                        <i class="fa fa-table" aria-hidden="true"></i><!-- this is file icon link get form fornt-awesome icon for about -->	
+                        <i class="fa fa-table" aria-hidden="true"></i><!-- copy and paste the file icon link here for hover effect -->		
+                    </div>
+                    <div class="name"><span data-text="Schedule">Schedule</span></div>
+                    <!-- we are create second menu item name About -->
+                </a>
+            </li>
+            <li>
+                <a href="song.html">
+                    <div class="icon">
+                        <i class="fa fa-volume-up" aria-hidden="true"></i>
+                        <i class="fa fa-volume-up" aria-hidden="true"></i>	
+                    </div>
+                    <div class="name"><span data-text="Audio Lyrics">Audio Lyrics</span></div>
+                </a>
+            </li>
+            <li>
+                <a href="video.html">
+                    <div class="icon">
+                        <i class="fa fa-video-camera" aria-hidden="true"></i><!-- this is picture icon link get form fornt-awesome icon for portfolio --> 	
+                        <i class="fa fa-video-camera" aria-hidden="true"></i><!-- copy and paste the picture icon link here for hover effect -->		
+                    </div>
+                    <div class="name" ><span data-text="Video">Video</span></div>
+                </a>
+            </li>
+            <li>
+                <a href="CoffeeShop.html">
+                    <div class="icon">
+                        <i class="fa fa-coffee" aria-hidden="true"></i><!-- this is picture icon link get form fornt-awesome icon for portfolio --> 	
+                        <i class="fa fa-coffee" aria-hidden="true"></i><!-- copy and paste the home icon link here for hover effect -->			
+                    </div>
+                    <div class="name"><span data-text="Coffee">Coffee</span></div>
+                    </a>
+                    </li>
+                    </ul>
+                    </body>
+                    </html>
